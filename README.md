@@ -1,14 +1,34 @@
-# code refactor
+# Code Refactor
 
 ## Description
+
+---
 
 Code refactor is a project I took on in order to refactor starter code for Horisean marking agency.I optimized their code to increase web accessibility so that people with disabilities can access their webpage and also so that it ranks higher in search engines.
 
 - fixed broken links
 - added semantic HTML elements
 - refactored redundant CSS code
+- added alt attributes to images and icons
+
+Snippet of refactored code with comments
+
+```<link rel="stylesheet" href="./assets/css/style.css" />
+    <!--added more descriptive title-->
+    <title>Horiseon Marketing Agency</title>
+  </head>
+
+  <body>
+    <!--modified Div to be header tag bc header is a semantic element-->
+    <header>
+      <h1>Hori<span class="seo">seo</span>n</h1>
+      <!--modified Div to be nav tag bc the below need to be on a navigation bar-->
+      <nav>
+```
 
 ## Usage
+
+---
 
 The webpage has a navigation bar on the top right side which the user can select one of the options they would like to learn more about.
 
@@ -22,6 +42,8 @@ There is also an aside section of the webpage that provides the user with additi
 
 ## credits
 
+---
+
 [Andrey Sitnik's GitHub README.md example used as reference for this README.md](https://github.com/ai/size-limit#readme)
 
 [UCB bootcamp Gitlab README.md used as reference for this README.md](https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FSF-FT-09-2022-U-LOLC/-/tree/main/course-content/01-html-git-css/challenge/Good-README-Guide)
@@ -31,6 +53,8 @@ There is also an aside section of the webpage that provides the user with additi
 [W3 schools was used extensively for both HTML and CSS reference guides](https://www.w3schools.com/)
 
 ## License
+
+---
 
 This webpage is licensed under the MIT license.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
