@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--added more descriptive title-->
     <title>Horiseon Marketing Agency</title>
   </head>
 
   <body>
-    <!--modified Div to be header element-->
+    <!--modified Div to be header tag bc header is a semantic element-->
     <header>
       <h1>Hori<span class="seo">seo</span>n</h1>
+      <!--modified Div to be nav tag bc the below need to be on a navigation bar-->
       <nav>
         <ul>
           <li>
@@ -24,12 +26,20 @@
             <a href="#social-media-marketing">Social Media Marketing</a>
           </li>
         </ul>
+        <!--modified Div to be nav tag-->
       </nav>
+      <!--modified Div to be header tag bc header is a semantic element-->
     </header>
+
+    <!--modified Div to be figure tag bc is a standalone image-->
     <figure class="hero"></figure>
 
+    <!--modified Div to be main tag bc main is a semantic element denoting main contents of page-->
     <main class="content">
+      <!--added article bc its semantic and below is an article-->
       <article>
+        <!--changed div to section tag bc below is a section in the article tag-->
+        <!--added ID for search engine so that link is fixed-->
         <section
           id="search-engine-optimization"
           class="search-engine-optimization"
@@ -39,6 +49,7 @@
             alt="search engine optimization"
             class="float-left"
           />
+          <!--added alt attribute to img tag to describe img for blind people-->
           <h2>Search Engine Optimization</h2>
           <p>
             The dominance of mobile internet use means that users are searching
@@ -48,6 +59,7 @@
           </p>
         </section>
 
+        <!--changed div to section tag bc below is a section in the article tag-->
         <section
           id="online-reputation-management"
           class="online-reputation-management"
@@ -57,6 +69,8 @@
             alt="online reputation management"
             class="float-right"
           />
+          <!--added alt attribute to img tag to describe img for blind people-->
+
           <h2>Online Reputation Management</h2>
           <p>
             The web is full of opinions, and some of these can be negative.
@@ -66,12 +80,15 @@
             search for your business.
           </p>
         </section>
+
+        <!--changed div to section tag bc below is a section in the article tag-->
         <section id="social-media-marketing" class="social-media-marketing">
           <img
             src="./assets/images/social-media-marketing.jpg"
             alt="social media marketing"
             class="float-left"
           />
+          <!--added alt attribute to img tag to describe img for blind people-->
           <h2>Social Media Marketing</h2>
           <p>
             Social media continues to have a sizable influence on buying habits.
@@ -83,10 +100,13 @@
       </article>
     </main>
 
+    <!--changed dic to aside because its semantic and also puts items to aside-->
     <aside class="benefits">
+      <!--div change to section-->
       <section class="benefit-lead">
         <h3>Lead Generation</h3>
         <img src="./assets/images/lead-generation.png" alt="lead generation" />
+        <!--added alt attribute to img tag to describe img for blind people-->
         <p>
           Inbound strategies for lead generation require less work for your
           business, bringing customers directly to your website.
@@ -95,20 +115,26 @@
       <section class="benefit-brand">
         <h3>Brand Awareness</h3>
         <img src="./assets/images/brand-awareness.png" alt="brand awareness" />
+        <!--added alt attribute to img tag to describe img for blind people-->
         <p>
           Users find your business through paid and organic searches, increasing
           the search ranking and visibility for your business.
         </p>
       </section>
+
+      <!--div change to section-->
       <section class="benefit-cost">
         <h3>Cost Management</h3>
         <img src="./assets/images/cost-management.png" alt="cost management" />
+        <!--added alt attribute to img tag to describe img for blind people-->
         <p>
           As the search ranking for your business increases, your advertising
           costs decrease, and you no longer need to advertise your page.
         </p>
       </section>
     </aside>
+
+    <!--changed DIV to footer bc its semantic-->
     <footer>
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
