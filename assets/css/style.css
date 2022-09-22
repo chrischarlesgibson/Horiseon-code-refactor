@@ -8,6 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* removed . bc changed to header in html and so not a class*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,16 +16,16 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* removed . bc changed to header in html and so not a class*/
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* removed . bc changed to header in html and so not a class*/
 header h1 .seo {
   color: #d9dcd6;
 }
-
+/* removed . and added nav bc changed to nav in html and so not a class*/
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,9 +34,12 @@ header nav {
   font-size: 20px;
 }
 
+/* removed . and added nav bc changed to nav in html and so not a class*/
 header nav ul {
   list-style-type: none;
 }
+
+/* removed . and added nav bc changed to nav in html and so not a class*/
 
 header nav ul li {
   display: inline-block;
@@ -138,6 +142,7 @@ p {
   font-size: 36px;
 }
 
+/* removed . and added footer bc changed to footer in html and so not a class*/
 footer {
   padding: 30px;
   clear: both;
@@ -146,6 +151,7 @@ footer {
   text-align: center;
 }
 
+/* removed . and added footer bc changed to footer in html and so not a class*/
 footer h2 {
   font-size: 20px;
 }
