@@ -12,11 +12,11 @@ Code refactor is a project I took on in order to refactor starter code for Horis
 
 The webpage has a navigation bar on the top right side which the user can select one of the options they would like to learn more about.
 
-![navigation bar] (assets/images/Navigation bar.png)
+![navigation bar](assets/images/Navigation bar.png)
 
 Selecting on of the 3 options will direct the user to a section that will provide some more information about the option they slected.
 
-![main contents of webpage] (assets/images/Main contents.png)
+![main contents of webpage](assets/images/Main contents.png)
 
 There is also an aside section of the webpage that provides the user with additional info on Horiseon's services.
 
