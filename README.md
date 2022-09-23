@@ -1,29 +1,34 @@
-# Code Refactor
+# Horiseon Code Refactor
 
 ## Description
 
 ---
 
-Code refactor is a project I took on in order to refactor starter code for Horisean marking agency.I optimized their code to increase web accessibility so that people with disabilities can access their webpage and also so that it ranks higher in search engines.
+Code refactor is a project to refactor starter code for Horisean marking agency. Their code was refactored to increase web accessibility so that people with disabilities can access their webpage and also so that it ranks higher in search engines.
 
-- fixed broken links
+- fixed broken link
 - added semantic HTML elements
 - refactored redundant CSS code
 - added alt attributes to images and icons
 
-Snippet of refactored code with comments
+Example of refactored code with added semmantic elements and comments:
 
-```<link rel="stylesheet" href="./assets/css/style.css" />
-    <!--added more descriptive title-->
+```
+<!--added more descriptive title-->
     <title>Horiseon Marketing Agency</title>
   </head>
 
   <body>
-    <!--modified Div to be header tag bc header is a semantic element-->
+    <!--modified Div to be header tag because header is a semantic element-->
     <header>
       <h1>Hori<span class="seo">seo</span>n</h1>
-      <!--modified Div to be nav tag bc the below need to be on a navigation bar-->
+      <!--modified Div to be nav tag because the below link needs to be on a navigation bar-->
       <nav>
+        <ul>
+          <li>
+            <a href="#search-engine-optimization">Search Engine Optimization</a>
+          </li>
+
 ```
 
 ## Usage
@@ -34,13 +39,13 @@ The webpage has a navigation bar on the top right side which the user can select
 
 ![navigation bar](assets/images/Navigation-bar.png)
 
-Selecting on of the 3 options will direct the user to a section that will provide some more information about the option they slected.
+Selecting one of the three options will direct the user to a section that will provide some more information about the option they slected.
 
 ![main contents of webpage](assets/images/Main-contents.png)
 
 There is also an aside section of the webpage that provides the user with additional info on Horiseon's services.
 
-## credits
+## Credits
 
 ---
 
