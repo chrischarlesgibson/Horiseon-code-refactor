@@ -4,7 +4,7 @@
 
 ---
 
-Code refactor is a project to refactor starter code for Horisean marking agency. Their code was refactored to increase web accessibility so that people with disabilities can access their webpage and also so that it ranks higher in search engines.
+Code refactor is a project to refactor starter code for Horisean marketing agency([Link to project found here](https://chrischarlesgibson.github.io/Horiseon-code-refactor/)). Their code was refactored to increase web accessibility so that people with disabilities can access their webpage and also so that it ranks higher in search engines.
 
 - fixed broken link
 - added semantic HTML elements
